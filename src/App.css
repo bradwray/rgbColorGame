@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300");
+
+body {
+  font-family: "Raleway", cursive;
+}
+
+.heading-text {
+  text-align: center;
+  color: white;
+  font-size: 3.5em;
+  margin: 0;
+  padding: 10px 0;
+  background-color: #2c8e99;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+}
+
+.color-display {
+  display: block;
+  text-align: center;
+}
+
+button {
+  outline: none;
+  color: #2c8e99;
+  font-family: "Raleway", Sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  background-color: white;
+  height: 100%;
+  width: 20%;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #2c8e99;
+  color: white;
+}
+
+.stripe {
+  background: #000;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  color: black;
+}
+
+.message {
+  text-transform: uppercase;
+  color: #2c8e99;
+  font-size: 1.2em;
+  display: inline-block;
+  width: 20%;
+}
+.score {
+  border: 1px solid white;
+  color: white;
+  width: 100px;
+  padding-left: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.square {
+  width: 50%;
+  background-color: purple;
+  padding-bottom: 20%;
+  float: left;
+  margin: 1.66%;
+  transition: background 0.5s;
+}
